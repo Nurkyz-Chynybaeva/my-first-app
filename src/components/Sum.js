@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sum(props) {
   return <h1>
-    {props.a} + {props.b}
+    {Number(props.a) +Number (props.b) } 
   </h1>
   
 }
