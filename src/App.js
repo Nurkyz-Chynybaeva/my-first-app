@@ -1,5 +1,6 @@
 import List from './components/List';
 import Ol from './components/Ol';
+import OrderedList from './components/OrderedList';
 
 
 function  App() {
@@ -9,10 +10,14 @@ function  App() {
     <div className = "App">
 <List items = {richPeople}/>
 <Ol items = {richPeople}/>
+<OrderedList items = {richPeople}/>
     </div>
   )
-  
-}
+};
+
+
+
+
 
 export default App;
 
