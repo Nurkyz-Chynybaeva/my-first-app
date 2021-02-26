@@ -2,10 +2,10 @@ function BiggerNumber(props){
   let a = props.a
   let b = props.b
       if (a < b){
-          return <div>Bigger numer is {props.b }</div>
+          return <h1>Bigger numer is <mark>{props.b }</mark> </h1>
       }
       else {
-          return <div>Bigger number is {props.a}</div>
+          return <h1>Bigger number is <mark>{props.a}</mark> </h1>
       }
   }
   
